@@ -1,0 +1,77 @@
+# News Web Scraping Project using Python
+
+## Project Overview
+
+Developed a Python-based web scraping system to extract real-time news headlines, article links, images, and webpage information from news websites. The project automates data collection using HTTP requests and HTML parsing techniques, enabling efficient extraction and storage of structured web data for analysis and future processing.
+
+## Objectives
+
+* Automate extraction of website data
+* Learn real-world web scraping workflows
+* Handle webpage requests using browser headers
+* Parse HTML content effectively
+* Store extracted data in structured formats such as CSV files
+
+## Technologies Used
+
+* Python
+* Requests Library
+* BeautifulSoup (bs4)
+* HTML Parsing
+* CSV File Handling
+* OS Module
+
+## Key Features
+
+* Sent HTTP requests with custom browser headers
+* Extracted webpage titles and headlines
+* Scraped links, images, and HTML elements
+* Parsed HTML using BeautifulSoup
+* Saved webpage source code locally
+* Exported extracted data into CSV format
+* Implemented exception handling for robust execution
+
+## Workflow
+
+1. Sent HTTP request to target website
+2. Added browser-like headers to avoid request blocking
+3. Parsed webpage HTML content using BeautifulSoup
+4. Extracted useful information such as:
+
+   * Headlines
+   * Hyperlinks
+   * Images
+   * HTML tags and classes
+5. Stored extracted data into local files and CSV datasets
+
+## Challenges Faced
+
+* Dynamic website structures
+* Missing HTML elements
+* Request blocking and anti-bot protection
+* Handling websites rendered with JavaScript
+
+## Learning Outcomes
+
+* Understanding of HTTP requests and response handling
+* Practical knowledge of HTML DOM structure
+* Real-world data extraction techniques
+* Error handling in web scraping pipelines
+* Data collection for analytics and machine learning applications
+
+## Future Enhancements
+
+* Selenium integration for JavaScript-rendered websites
+* Automated pagination handling
+* Proxy and rotating user-agent implementation
+* Database integration
+* Data visualization dashboard
+* News sentiment analysis using machine learning
+
+## Applications
+
+* News aggregation systems
+* Market research
+* Sentiment analysis
+* Data analytics pipelines
+* Automated content monitoring
